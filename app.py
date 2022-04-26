@@ -3,6 +3,7 @@ import pandas as pd
 import joblib
 import plotly.express as px
 import plotly.graph_objects as go
+import sklearn
 
 
 gbr = joblib.load('totalcomp_undersampled_gbr_tuned.joblib')
